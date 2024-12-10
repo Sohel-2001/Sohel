@@ -169,7 +169,15 @@ body::-webkit-scrollbar{
   
     margin-bottom: 14vw;
 }
-
+.page2-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #0d101600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .page2 .left-overlay{
     position: absolute;
     height: 180%;
